@@ -1,0 +1,15 @@
+﻿key,label,points,is_star
+c01_daily_price_gt_ma5,① 日足5MA＜株価,1,False
+c02_daily_ma5_slope_positive,② 日足5MAの傾きが正,1,False
+c03_daily_ma5_gt_ma25,③ 日足5MA＞25MA,1,False
+c04_weekly_ma_13_26_52,④★ 週足13MA＞26MA＞52MA,5,True
+c05_weekly_ma13_slope_positive,⑤★ 週足13MAの傾きが正,5,True
+c06_weekly_ma13_deviation_le_10pct,⑥ 13MAの＋乖離率10％以下,1,False
+c07_daily_bb_outside_1sigma,⑦ 日足BB +1σ以上 or -1σ以下,1,False
+c08_weekly_bb_ok,⑧★ 週足BB条件,5,True
+c09_daily_macd_ok,⑨ 日足MACD GC後 or 乖離,1,False
+c10_weekly_macd_gc,⑩★ 週足MACD GC後,5,True
+c11_daily_rsi_ok,⑪ 日足RSI 10以下 or 60以上,1,False
+c12_weekly_rsi_ok,⑫ 週足RSI 10以下 or 60以上,1,False
+c13_daily_ichimoku_above_cloud,⑬ 日足一目均衡表の雲より株価が上,1,False
+c14_weekly_ichimoku_above_cloud,⑭★ 週足一目均衡表の雲より株価が上,5,True
